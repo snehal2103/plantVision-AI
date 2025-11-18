@@ -6,7 +6,7 @@ import os
 # ------------------------------------------------------
 # 1. GROQ CLIENT 
 # ------------------------------------------------------
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # ------------------------------------------------------
 # STREAMLIT PAGE CONFIG
@@ -139,3 +139,4 @@ else:
 # Footer
 st.markdown("---")
 st.caption("🌿 Built with ❤️ using Streamlit")
+

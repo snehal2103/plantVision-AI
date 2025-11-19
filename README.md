@@ -1,4 +1,4 @@
-🌿 PlantVision AI-Plant Species & Disease Detection (AI Vision)
+## 🌿 PlantVision AI-Plant Species & Disease Detection (AI Vision)
 
 Built an end-to-end plant identification system using Groq Llama-4-Scout Vision (17B multimodal model) to detect plant species and classify leaf diseases from images.
 Implemented a Streamlit-based web UI, integrating Base64 image handling and structured diagnosis prompts for species detection, symptoms analysis, and treatment generation.
